@@ -2,19 +2,15 @@ package MainProject.gui;
 import javax.swing.*;
 
 
-public class MainWindow {
-    public static void main(String[] args) {
-        //main JFrame
-        JFrame main = new JFrame("Main Window");
+public class MainWindow extends JFrame{
+    public MainWindow() {
+        super("MainWindow");
 
-        //close the window
-        main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFRAME.EXIT_ON_CLOSE);
 
-        main.setSize(1000, 1000);
+        setResizable(true);
 
-        // make the window visible
-        main.setVisible(true);
-
-        main.setResizable(true);
+        setSize(400, 400);
+        
     }
 }
