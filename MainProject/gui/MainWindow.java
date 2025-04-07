@@ -2,7 +2,7 @@ package MainProject.gui;
 import javax.swing.*;
 
 
-public class MainWindow extends JFrame{
+public class MainWindow {
     public static void main(String[] args) {
         //main JFrame
         JFrame main = new JFrame("Main Window");
