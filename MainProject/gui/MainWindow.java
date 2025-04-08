@@ -4,6 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+
 public class MainWindow extends JFrame {
     public MainWindow() {
         super("Window Object");
@@ -14,7 +15,7 @@ public class MainWindow extends JFrame {
 
         // Layout
         JPanel panel = new JPanel();
-        JLabel label = new JLabel("I'm on electrical PIT CREW!!");
+        JLabel label = new JLabel("This is the connecting message...");
         // Button Function
 
         // Components
