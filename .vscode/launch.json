@@ -1,13 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "type": "java",
-        "name": "Launch MainWindow",
-        "request": "launch",
-        "mainClass": "MainProject.gui.MainWindow",
-        "projectName": "FRC-Electrical-Diagnostic-Tool" // <-- Replace with your actual project name
-      }
-    ]
-  }
-  
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch MainWindow",
+      "request": "launch",
+      "mainClass": "MainProject.gui.MainWindow",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

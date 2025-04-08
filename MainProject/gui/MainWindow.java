@@ -1,6 +1,5 @@
 package MainProject.gui;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -17,14 +16,11 @@ public class MainWindow extends JFrame {
         // Layout
         JPanel panel = new JPanel();
         JLabel label = new JLabel("I'm on electrical PIT CREW!!");
-        JButton button = new JButton("Button_First_Test");
 
         // Button Function
-        button.addActionListener(e -> label.setText("Main Window"));
 
         // Components
         panel.add(label);
-        panel.add(button);
         this.add(panel);
     }
 
