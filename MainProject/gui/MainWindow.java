@@ -10,12 +10,11 @@ public class MainWindow extends JFrame {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(true);
-        setSize(650, 650);
+        setSize(700, 700);
 
         // Layout
         JPanel panel = new JPanel();
         JLabel label = new JLabel("I'm on electrical PIT CREW!!");
-
         // Button Function
 
         // Components
