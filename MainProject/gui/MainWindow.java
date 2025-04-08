@@ -3,11 +3,10 @@ package MainProject.gui;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 
 public class MainWindow extends JFrame {
     public MainWindow() {
-        super("Window Object TESTER");
+        super("Window Object");
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(true);
@@ -22,11 +21,5 @@ public class MainWindow extends JFrame {
         // Components
         panel.add(label);
         this.add(panel);
-    }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new MainWindow().setVisible(true);
-        });
     }
 }

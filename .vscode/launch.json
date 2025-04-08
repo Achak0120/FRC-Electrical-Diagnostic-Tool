@@ -5,7 +5,7 @@
       "type": "java",
       "name": "Launch MainWindow",
       "request": "launch",
-      "mainClass": "MainProject.gui.MainWindow",
+      "mainClass": "Main",
       "cwd": "${workspaceFolder}"
     }
   ]

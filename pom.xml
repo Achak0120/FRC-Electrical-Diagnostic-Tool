@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion> <!-- Required for Maven to recognize the structure -->
 
     <groupId>com.yourgroup</groupId> <!-- Replace with your project group ID -->
-    <artifactId>your-artifact-id</artifactId> <!-- Replace with your project artifact ID -->
+    <artifactId>FRC-Electrical-Diagnostic-Tool</artifactId> <!-- Your custom artifact ID -->
     <version>1.0-SNAPSHOT</version> <!-- Version of your project -->
 
     <dependencies>
