@@ -7,6 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+
 public class MainWindow extends JFrame {
     public MainWindow() {
         super("FIRST Diagnostics");
