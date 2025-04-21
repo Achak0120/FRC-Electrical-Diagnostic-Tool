@@ -1,31 +1,13 @@
 plugins {
-    id "java"
-    id "edu.wpi.first.GradleRIO" version "2024.3.2"
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17) // WPILib uses Java 17
-    }
+    id 'edu.wpi.first.GradleRIO' version '2023.3.1' // Use the appropriate version for your project
 }
 
 repositories {
     mavenCentral()
-    maven { url = uri("https://frcmaven.wpi.edu/artifactory/release/") }
+    maven { url 'https://frcmaven.wpi.edu/artifactory/third-party' }
 }
 
 dependencies {
-    implementation wpi.deps.wpilib()
-}
-
-wpi {
-    wpilibVersion = "2024.3.2"
-    enableCpp = false
-    enableJava = true
-    teamNumber = 9999 // <-- Change to your team number
-    // Optional: set main class if needed
-}
-
-application {
-    mainClass = 'frc.robot.Main' // Only needed if running robot code on desktop
+    implementation 'edu.wpi.first.wpilibj:wpilibj-java:2023.3.1' // Correct version of WPILib for your robot
+    // Add any additional dependencies you may need
 }
