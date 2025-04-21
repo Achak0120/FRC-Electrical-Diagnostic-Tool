@@ -8,6 +8,26 @@ repositories {
 }
 
 dependencies {
-    implementation 'edu.wpi.first.wpilibj:wpilibj-java:2023.3.1' // Correct version of WPILib for your robot
-    // Add any additional dependencies you may need
+    // WPILib dependencies
+    implementation 'edu.wpi.first.wpilibj:wpilibj-java:2023.3.1' // Main WPILib library for your robot
+
+    // These dependencies are common and often used in FRC projects
+    implementation 'edu.wpi.first.cameraserver:camera-server-java:2023.3.1' // For camera support
+    implementation 'edu.wpi.first.networktables:networktables-java:2023.3.1' // For network table communication
+    implementation 'edu.wpi.first.wpilibj:wpilibj-hal-java:2023.3.1' // Hardware abstraction layer for interacting with hardware
+    implementation 'edu.wpi.first.wpilibj:wpilibj-roborio-java:2023.3.1' // RoboRIO support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-vision-java:2023.3.1' // Vision processing support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-pidcontroller-java:2023.3.1' // PID control support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-gyro-java:2023.3.1' // Gyro sensor support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-sensor-java:2023.3.1' // Sensors support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-motorcontroller-java:2023.3.1' // Motor controller support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-actuator-java:2023.3.1' // Actuators support
+    implementation 'edu.wpi.first.wpilibj:wpilibj-rio-io-java:2023.3.1' // Rio I/O library
+
+    // Add any additional libraries you might need for your specific setup
+    // For example, for CTRE (Talon SRX/FX), add:
+    // implementation 'com.ctre.phoenix:phoenix-java:5.24.0'
+
+    // Example for the WPILib simulation library, if needed
+    // implementation 'edu.wpi.first.wpilibj:wpilibj-simulation-java:2023.3.1'
 }
